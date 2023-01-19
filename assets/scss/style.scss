@@ -15,7 +15,7 @@
 6. Footer
 */
 
-@import 'custom-font';
+@import "./variable";
 @import 'common';
 @import 'button';
 @import './loader';
@@ -27,6 +27,3 @@
 
 //Home page
 
-@import './Pages/Home/Bannar';
-@import './Pages/Home/brands';
-@import './Pages/Home/subscribe';
