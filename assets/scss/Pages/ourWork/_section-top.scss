@@ -1,0 +1,31 @@
+.our-work-page {
+    .section-title {
+        h2 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: $lightdark;
+            text-transform: capitalize;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: "";
+                bottom: 13px;
+                left: -100px;
+                width: 66px;
+                height: 3px;
+                background: $redtwo;
+                border-radius: 1px;
+            }
+        }
+    }
+    .section-desc{
+        p{
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $lightGray;
+        }
+    }
+}

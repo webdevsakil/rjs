@@ -681,4 +681,58 @@ label {
   transform: translate(-50%, -50%);
 }
 
+.our-work-bannar {
+  position: relative;
+}
+.our-work-bannar::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 70, 122, 0.7);
+}
+.our-work-bannar .work-bannar-heading {
+  position: relative;
+  z-index: 20;
+}
+.our-work-bannar .work-bannar-heading h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 76px;
+}
+
+.our-work-page .section-title h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #0C072A;
+  text-transform: capitalize;
+  position: relative;
+}
+.our-work-page .section-title h2::before {
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  left: -100px;
+  width: 66px;
+  height: 3px;
+  background: #C92015;
+  border-radius: 1px;
+}
+.our-work-page .section-desc p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #667488;
+}
+
+.grid-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 /*# sourceMappingURL=style.css.map */

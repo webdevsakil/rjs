@@ -26,6 +26,12 @@
 // Pages
 
 //Home page
+
 @import './Pages/home/bannar';
 @import './Pages/home/ourCompany';
 @import './Pages/home/quote';
+
+// our work
+@import './Pages/ourWork/workBannar';
+@import './Pages/ourWork/section-top';
+@import './Pages/ourWork/existingProjects';

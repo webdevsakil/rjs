@@ -1,0 +1,22 @@
+.our-work-bannar{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(22, 70, 122, 0.7);
+    }
+    .work-bannar-heading{
+        position: relative;
+        z-index: 20;
+        h1{
+            text-align: center;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 76px;
+        }
+    }
+}
