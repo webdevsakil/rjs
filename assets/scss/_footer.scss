@@ -1,73 +1,119 @@
-.footer-area{
-    .logo-area{
-        p{
-            font-weight: 400;
+.footer-area {
+
+    .footer-heading {
+        h4 {
+            font-family: $poppins;
+            font-weight: 500;
             font-size: 16px;
             line-height: 20px;
-            color: rgba(93, 95, 102, 1);
-        }
-    }
-    .footer-heading{
-        h4{
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 23px;
             text-transform: capitalize;
             margin-bottom: 20px;
+            color: $white;
         }
     }
-    .footer-nav{
-        ul{
-            li{
-                a{
-                    text-decoration: none;
-                    text-transform: capitalize;
+
+    .text-widgets {
+        h5 {
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 20px;
+            color: $white;
+            margin: 20px 0px;
+        }
+
+        p {
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $white;
+        }
+    }
+    .footer-list{
+        li{
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: $whitetwo;
+            margin: 8px 0px;
+            i{
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .form-area{
+        form{
+            position: relative;
+            input{
+                width: 100%;
+                padding: 16px 40px 16px 18px;
+                border-radius: 10px;
+                border: none;
+                &::placeholder{
+                    font-family: $roboto;
                     font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #636363;
+                }
+                &.input-btn{
+                    width: fit-content;
+                    padding: 8px 24px 8px 24px;
+                    border-radius: 6px;
+                    background: $redtwo;
+                    font-family: $roboto;
+                    font-weight: 500;
                     font-size: 16px;
-                    line-height: 30px;
-                    color: rgba(93, 95, 102, 1);
-                    &:hover{
-                        color: #1DA8DF;
-                    }
+                    line-height: 26px;
+                    color: $white;
+                    position: absolute;
+                    top: 8px;
+                    right: 8px;
                 }
             }
         }
     }
-    .text-widgets{
-        p{
-            font-weight: 400;
+    .footer-subheading{
+        h4{
+            font-family: $poppins;
+            font-weight: 500;
             font-size: 16px;
-            line-height: 19px;
-            color: rgba(93, 95, 102, 1);
-        }
-        a{
-            display: inline-block;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: rgba(255, 255, 255, 1);
-            background-color: #1DA8DF;
-            padding: 16px 40px;
+            line-height: 20px;
+            color: $white;
         }
     }
-    .info-widgets{
-        p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            color: rgba(93, 95, 102, 1);
-        }
-    }
-    .social-links{
-        li{
-            a{
+    .social-list {
+        display: flex;
+        align-items: center;
+        li {
+            a {
                 color: #7E7E81;
                 margin-right: 8px;
-                &:hover{
-                    color: #1DA8DF;
-                }
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background-color: $blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: $white;
+            
             }
+        }
+    }
+    .copyright-area{
+        p{
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: $lightGray2;
+            text-transform: uppercase;
         }
     }
 }

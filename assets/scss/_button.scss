@@ -21,3 +21,12 @@
         border-color: $red;
     }
 }
+.theme-btn-dark{
+    background-color: $darktwo;
+    color: $white;
+    border-color: $darktwo;
+    &:hover{
+        background-color: transparent;
+        color: $darktwo;
+    }
+}

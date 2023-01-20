@@ -1,0 +1,97 @@
+.quote-area {
+    .quote-heading {
+        h2 {
+            color: $lightdark;
+            font-weight: 600;
+        }
+    }
+
+    .quote-right-area {
+        .desc {
+            p {
+                color: $lightGray;
+            }
+        }
+    }
+
+    .photo-gallary-slider {
+        position: relative;
+
+        button.slick-arrow {
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            height: 78px;
+            width: 78px;
+            border-radius: 50%;
+            color: rgba(111, 110, 113, 1);
+            transform: translateY(-50%);
+            font-size: 24px;
+
+            &.slick-prev {
+                position: absolute;
+                top: 50%;
+                left: 60px;
+                z-index: 988;
+            }
+
+            &.slick-next {
+                position: absolute;
+                top: 50%;
+                right: 60px;
+                z-index: 988;
+            }
+        }
+
+        .slide {
+            margin: 0px 45px;
+            position: relative;
+
+            .theme-btn {
+                display: none;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+            // img {
+            //     width: 560px;
+            //     height: 530px;
+            // }
+
+            &.slick-center {
+             
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.4);
+                }
+
+                .theme-btn {
+                    display: block;
+                }
+                transform: scaleX(1.2) ;
+            }
+        }
+    }
+}
+
+.video-area{
+    video{
+        object-fit: cover;
+        width: 100%;
+    }
+    .video-wrapper{
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
