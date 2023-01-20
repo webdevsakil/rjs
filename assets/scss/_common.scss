@@ -1,14 +1,6 @@
-// variables
-
-// fonts
-
-$inter: 'Inter', sans-serif;
-
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: $roboto;
   overflow-x: hidden;
-  overflow-y: scroll;
-  overscroll-behavior: none;
   font-weight: 400;
   font-size: 16px;
 }
@@ -53,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-
+  font-family: $poppins;
   margin-bottom: 0;
   font-weight: 700;
   line-height: 1.15;
@@ -69,17 +61,16 @@ h6 a {
 }
 
 h1 {
-  font-weight: 700;
   font-size: 66px;
-  line-height: 74px;
-  color: #FFFFFF;
+  line-height: 86px;
+  color: $white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 44px;
-  line-height: 50px;
-  color: #07080C;
+  font-size: 36px;
+  line-height: 48px;
+  color: $white;
 }
 
 h3 {
@@ -106,9 +97,9 @@ h6 {
 
 p {
   font-weight: 400;
-  font-size: 22px;
-  line-height: 30px;
-  color: #7E7E81;
+  font-size: 16px;
+  line-height: 28px;
+  color: $gray;
 }
 
 ul {
@@ -169,6 +160,6 @@ label {
    Background Color
 */
 
-.theme-bg-primary {
-  background: rgba(35, 59, 139, 1);
+.theme-bg-dark {
+  background-color: $dark;
 }
