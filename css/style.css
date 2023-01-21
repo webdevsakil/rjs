@@ -573,11 +573,9 @@ label {
   margin: 0px 15px;
   position: relative;
 }
-@media screen and (max-width: 480px) {
-  .quote-area .photo-gallary-slider .slide img {
-    width: 100vw;
-    height: 284px;
-  }
+.quote-area .photo-gallary-slider .slide img {
+  width: 100%;
+  height: 490px;
 }
 .quote-area .photo-gallary-slider .slide .theme-btn {
   display: none;
@@ -614,6 +612,71 @@ label {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .quote-area .quote-heading h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-prev {
+    left: 15px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-next {
+    right: 15px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow {
+    height: 48px;
+    width: 48px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .quote-area .quote-heading h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .quote-area .photo-gallary-slider .slide {
+    width: 100vw;
+    height: 350px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-prev {
+    left: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-next {
+    right: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow {
+    height: 58px;
+    width: 58px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .quote-area .container {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .quote-area .quote-heading h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .quote-area .photo-gallary-slider .slide {
+    width: 100vw;
+    height: 300px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-prev {
+    left: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-next {
+    right: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow {
+    height: 38px;
+    width: 38px;
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 480px) {
   .quote-area .quote-right-area .desc p {
     font-size: 16px;
@@ -632,6 +695,10 @@ label {
   .video-area .video-wrapper img {
     width: 70px;
     height: 70px;
+  }
+  .quote-area .photo-gallary-slider .slide {
+    width: 100vw;
+    height: 300px;
   }
 }
 @media screen and (max-width: 480px) {
