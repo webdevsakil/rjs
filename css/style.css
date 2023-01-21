@@ -197,6 +197,34 @@ label {
   background-color: #F0F0F0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0px 20px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
 .theme-btn {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -294,6 +322,9 @@ label {
   border-bottom: 1px solid rgba(255, 255, 255, 0.045);
   margin-left: 0px;
   padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
   color: #00ccff;
@@ -366,7 +397,11 @@ label {
 
 @media all and (max-width: 991px) {
   .header-area {
-    padding: 20px 0px;
+    padding: 0px 20px;
+  }
+  .header-area .logo-area img {
+    height: 32px;
+    width: 32px;
   }
 }
 .footer-area .footer-heading h4 {
@@ -468,6 +503,23 @@ label {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 480px) {
+  .footer-area .text-widgets h5 {
+    font-size: 16px;
+  }
+  .footer-area .text-widgets p {
+    font-size: 15px;
+  }
+  .footer-area .footer-list li {
+    margin: 12px 0px;
+  }
+  .footer-area .form-area form input {
+    padding: 12px;
+  }
+  .footer-area .form-area form input.input-btn {
+    top: 3px;
+  }
+}
 .bannar-area {
   min-height: 100vh;
   background-size: cover !important;
@@ -475,6 +527,16 @@ label {
   background-position: center !important;
 }
 
+@media screen and (max-width: 480px) {
+  .bannar-area h1 {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-company {
+    padding-top: 40px;
+  }
+}
 .quote-area .quote-heading h2 {
   color: #0C072A;
   font-weight: 600;
@@ -511,6 +573,12 @@ label {
   margin: 0px 15px;
   position: relative;
 }
+@media screen and (max-width: 480px) {
+  .quote-area .photo-gallary-slider .slide img {
+    width: 100vw;
+    height: 284px;
+  }
+}
 .quote-area .photo-gallary-slider .slide .theme-btn {
   display: none;
   position: absolute;
@@ -546,6 +614,31 @@ label {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 480px) {
+  .quote-area .quote-right-area .desc p {
+    font-size: 16px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-prev {
+    left: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow.slick-next {
+    right: 10px;
+  }
+  .quote-area .photo-gallary-slider button.slick-arrow {
+    height: 38px;
+    width: 38px;
+    font-size: 16px;
+  }
+  .video-area .video-wrapper img {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .showcase img {
+    height: 290px;
+  }
+}
 .our-work-bannar {
   position: relative;
 }

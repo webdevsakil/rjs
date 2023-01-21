@@ -1,6 +1,14 @@
-.bannar-area{
+.bannar-area {
     min-height: 100vh;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
+}
+
+@media screen and (max-width:480px) {
+    .bannar-area{
+        h1{
+            padding-left: 10px;
+        }
+    }
 }

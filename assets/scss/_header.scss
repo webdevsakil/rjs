@@ -83,7 +83,9 @@
                         border-bottom: 1px solid rgba(255, 255, 255, 0.045);
                         margin-left: 0px;
                         padding: 10px 20px;
-
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        color: $white;
                         &:hover {
                             color: #00ccff;
                         }
@@ -191,6 +193,13 @@
 // menu space
 @media all and (max-width:991px) {
     .header-area {
-        padding: 20px 0px;
+        padding: 0px 20px;
+
+        .logo-area img {
+            height: 32px;
+            width: 32px;
+        }
     }
+
+
 }
