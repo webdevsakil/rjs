@@ -735,4 +735,11 @@ label {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
+.current-projects .section-title h2 {
+  color: #ffffff;
+}
+.current-projects .section-desc p {
+  color: #F6F6F6;
+}
+
 /*# sourceMappingURL=style.css.map */
