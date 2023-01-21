@@ -17,23 +17,18 @@ closeBtn.addEventListener('click', function () {
     body.classList.remove('bg-gray');
 })
 
-
-
-
-
-// preloader
-
-// window.addEventListener('load', function () {
-//     document.querySelector('#loader-wrapper').classList.add("loaded")
-// });
+// document.querySelector('.video-wrapper img').addEventListener('click', function () {
+//     const vedio = document.getElementById('vedieo');
+//     vedio.play()
+// })
 
 $(document).ready(function () {
+
+
 
     $('.photo-gallary-slider').slick({
         infinite: true,
         slidesToShow: 3,
-        // slidesToScroll: 1,
-        centerMode: true,
         variableWidth: true,
         speed: 300,
         prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa-solid fa-arrow-left-long'></i></button>",

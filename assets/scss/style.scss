@@ -13,13 +13,23 @@
 4. Common - Global Style
 5. Header 
 6. Footer
+7. Home page
+   7.1 Bannar
+   7.2 Our Company
+   7.3 Quote
+8. Our Work
+   8.1 Work Bannar
+   8.2 Section Top
+   8.3 Existing Projects
+   8.4 Current Projects
+9. Connect
+   9.1 Connect Bannar
+   9.2  contact form
 */
 
 @import "./variable";
 @import 'common';
 @import 'button';
-@import './loader';
-
 @import 'header';
 @import 'footer';
 
@@ -36,3 +46,8 @@
 @import './Pages/ourWork/section-top';
 @import './Pages/ourWork/existingProjects';
 @import './Pages/ourWork/currentProject';
+
+// connect bannar
+@import './Pages/connect/connectBannar';
+@import './Pages/connect/contact';
+@import './form';

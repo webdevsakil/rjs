@@ -1,0 +1,54 @@
+.contact-area {
+    .contact-wrapper {
+        padding: 60px 30px;
+        border-radius: 16px;
+
+        .contact-area-left {
+            h4 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 32px;
+                color: $lightdark;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color: $text;
+                margin-right: 80px;
+            }
+
+            ul {
+                li {
+
+                    i,
+                    span {
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $text;
+
+                    }
+
+                    span {
+                        margin-left: 5px;
+                    }
+
+                    margin-bottom: 10px;
+
+                }
+            }
+            .checkbox-area{
+                display: flex;
+                align-items:start;
+                input{
+                    margin-top: 7px;
+                    margin-right: 10px;
+                }
+                span{
+                    line-height: 28px;
+                    color: $text;
+                }
+            }
+        }
+    }
+  
+}

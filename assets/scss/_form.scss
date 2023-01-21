@@ -1,0 +1,45 @@
+  .contact-form-area {
+      background-color: $white;
+      padding: 30px;
+      border-radius: 20px;
+
+      h3 {
+          text-align: center;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 26px;
+          color: $textdark;
+      }
+
+      label {
+          text-transform: capitalize;
+          color: $textdark;
+          margin: 10px 0px;
+      }
+
+      input,textarea {
+          width: 100%;
+          border: none;
+          background: $inputbg;
+          padding: 13px 22px;
+          color: $black;
+          border-radius: 6px;
+          &::placeholder{
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: $placeholder;
+          }
+      }
+          input[type=submit]{
+            font-family: $roboto;
+            background-color: $redtwo;
+            margin-top: 15px;
+            color: $white;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: capitalize;
+          }
+  }
