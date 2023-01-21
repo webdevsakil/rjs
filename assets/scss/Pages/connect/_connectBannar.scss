@@ -35,3 +35,10 @@
         }
     }
 }
+
+@media screen and (max-width:576px) {
+    .our-connect-bannar .connect-bannar-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

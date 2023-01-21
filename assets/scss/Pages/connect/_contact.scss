@@ -36,19 +36,92 @@
 
                 }
             }
-            .checkbox-area{
+
+            .checkbox-area {
                 display: flex;
-                align-items:start;
-                input{
+                align-items: start;
+
+                input {
                     margin-top: 7px;
                     margin-right: 10px;
                 }
-                span{
+
+                span {
                     line-height: 28px;
                     color: $text;
                 }
             }
         }
     }
-  
+
+}
+
+
+// contact area small
+
+.contact-area-small {
+    .contact-bg {
+
+        background: #edf1f1;
+        border-radius: 16px;
+    }
+
+
+
+    h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: $lightdark;
+    }
+
+    h5 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #0C072A;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $lightGray;
+        margin-top: 10px;
+    }
+
+    ul {
+        li {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #667488;
+            margin-bottom: 20px;
+
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    form.checkbox-area {
+        display: flex;
+        span {
+            font-family: $roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $lightGray;
+        }
+        input{
+            height: 22px;
+            width: 22px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .contact-form-area {
+        padding: 15px;
+    }
 }

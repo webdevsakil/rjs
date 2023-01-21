@@ -41,63 +41,63 @@
                 </div>
 
 
-                <nav class="nav-area">
+                <nav class="nav-area d-none d-lg-block">
                     <ul>
-                        <li><a href="contact.html">Our Work </a></li>
+                        <li><a href="ourwork.html">Our Work </a></li>
                         <li class="active"><a href="connect.html">connect</a></li>
                     </ul>
 
                 </nav>
 
-                <div class="open-menu-btn d-flex justify-content-end d-lg-none col-6">
-                    <button type="button"><i class="fa-solid fa-bars"></i></button>
+                <div class="open-menu-btn d-flex justify-content-end d-lg-none">
+                    <img src="images/header/bar-icon.png" class="img-fluid" alt="">
 
                 </div>
             </div>
         </div>
         <!-- mobile menu -->
-        <div class="main-menu-area mobile-menu-area">
+        <div class="main-menu-area mobile-menu-area ">
             <div class="d-flex justify-content-between mobile-menu-top">
                 <div class="logo-area">
                     <a href="index.html">
-                        <img src="images/logo/footer-logo.png" alt="logo">
+                        <img src="images/header/logo.png" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="close-btn">
-                    <button type="button"><i class="fa fa-close"></i></button>
+                <div class="close-btn mt-20">
+                    <button type="button">
+                        <i class="fa fa-close"></i>
+                    </button>
                 </div>
             </div>
             <nav class="primary-menu">
                 <ul>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="industries.html">industries</a></li>
-                    <li><a href="contact.html">Contact </a></li>
-                    <li><a href="technology-v1.html">technology </a></li>
-                    <li><a href="ecommerce.html">E-Commerce </a></li>
+                    <li><a href="ourwork.html">our work</a></li>
+                    <li><a href="connect.html">connect</a></li>
+
                     <!-- 
-                    <li class="has-dropdown"><a href="#">dropdown menu</a>
-                        <ul>
-                            <li><a href="#">About us</a>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Practice areas</a></li>
-                                    <li><a href="#">Practice areas</a></li>
-                                    <li><a href="#">Case results</a></li>
-                                    <li><a href="#">Contact Sales</a></li>
-                                    <li><a href="#">About us</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Practice areas</a></li>
-                            <li><a href="#">Case results</a></li>
-                            <li><a href="#">Contact Sales</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Practice areas</a></li>
-                            <li><a href="#">Practice areas</a></li>
-                            <li><a href="#">Case results</a></li>
-                            <li><a href="#">Contact Sales</a></li>
-                        </ul>
-                    </li>
-                    -->
+                        <li class="has-dropdown"><a href="#">dropdown menu</a>
+                            <ul>
+                                <li><a href="#">About us</a>
+                                    <ul>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Practice areas</a></li>
+                                        <li><a href="#">Practice areas</a></li>
+                                        <li><a href="#">Case results</a></li>
+                                        <li><a href="#">Contact Sales</a></li>
+                                        <li><a href="#">About us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Practice areas</a></li>
+                                <li><a href="#">Case results</a></li>
+                                <li><a href="#">Contact Sales</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Practice areas</a></li>
+                                <li><a href="#">Practice areas</a></li>
+                                <li><a href="#">Case results</a></li>
+                                <li><a href="#">Contact Sales</a></li>
+                            </ul>
+                        </li>
+                        -->
                 </ul>
             </nav>
         </div>
@@ -118,12 +118,79 @@
         </div>
     </section>
 
-    <section class="contact-area  mt-75">
-        <div class="container px-5">
+    <!-- contact area for small device -->
+    <section class="contact-area-small d-md-none mt-60">
+        <div class="container">
+            <div class="row contact-bg">
+                <div class="col-lg-12 pt-25 pl-20">
+                    <h4>Drop us a line!</h4>
+                    <p>Send us a message, or call us for a quote. Use our contact form to tell us more about
+                        your project, and we will connect
+                        you with the services to fit your needs.</p>
+
+                </div>
+                <div class="col-lg-12 mt-xs-10">
+                    <div class="contact-form-area">
+                        <form action="#">
+                            <h3>Get a Quote</h3>
+                            <div class="row mt-20">
+                                <div class="col-12">
+                                    <label for="fname">First name</label>
+                                    <input type="text" placeholder="your first name" id="fname">
+                                </div>
+                                <div class="col-12">
+                                    <label for="number">Phone Number</label>
+                                    <input type="number" placeholder="your phone number" id="number">
+                                </div>
+                                <div class="col-12">
+                                    <label for="email">your email</label>
+                                    <input type="email" placeholder="ryan@gmail.com" id="email">
+                                </div>
+                                <div class="col-12">
+                                    <label for="message">message</label>
+                                    <textarea id="message" rows="1" placeholder="Write message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <input type="submit" value="send message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-60">
+                    <h5>RJS Construction Services</h5>
+                    <ul class="mt-30">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>PO Box 5766 Santa Fe, New Mexico 87502</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ryan@rjsbuild.com</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>505.913.9723</span>
+                        </li>
+                    </ul>
+                    <form action="#" class="checkbox-area pb-20">
+                        <input type="checkbox">
+                        <span>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of
+                            Service
+                            apply.</span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact area for large device -->
+
+    <section class="contact-area d-none d-md-block  mt-75 mt-xs-60">
+        <div class="container px-lg-5">
             <div class="contact-wrapper theme-bg-gray">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="contact-area-left mt-30 ">
+                        <div class="contact-area-left mt-xs-15  mt-30 ">
 
                             <h4>Drop us a line!</h4>
                             <p>Send us a message, or call us for a quote. Use our contact form to tell us more about
@@ -171,7 +238,7 @@
                                     </div>
                                     <div class="col-12">
                                         <label for="message">message</label>
-                                        <textarea id="message"  rows="1"></textarea>
+                                        <textarea id="message" rows="1"></textarea>
                                     </div>
                                     <div class="col-12">
                                         <input type="submit" value="send message">
@@ -198,7 +265,7 @@
     <footer class="pt-80  footer-area theme-bg-black">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-md-6 col-xl-3">
                     <div class="logo-area">
                         <div class="logo">
                             <a href="#">
@@ -216,7 +283,7 @@
 
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-xl-3 mt-xs-10 mb-xs-30 mt-sm-30">
                     <div class="footer-heading">
                         <h4>OSHA</h4>
                     </div>
@@ -226,7 +293,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-xl-3 mt-sm-30 mt-md-30 mt-lg-50 ">
                     <div class="footer-heading">
                         <h4>RJS Construction Services</h4>
                     </div>
@@ -237,7 +304,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-xl-3 mt-md-20 mt-50">
                     <div class="footer-heading">
                         <h4>Subscribe to get our newesletter</h4>
                     </div>
@@ -247,7 +314,7 @@
                             <input type="submit" value="Subscribe" class="input-btn">
                         </form>
                     </div>
-                    <div class="footer-subheading mt-20 mb-20">
+                    <div class="footer-subheading mt-xs-30 mt-20 mb-20">
                         <h4>Social Link</h4>
                     </div>
                     <ul class="social-list">
@@ -258,10 +325,12 @@
                 </div>
             </div>
         </div>
-        <div class="container copyright-area pt-15 pb-30">
+        <div class="container copyright-area mt-xs-40 pt-15 pb-30">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>COPYRIGHT © 2022 RJS CONSTRUCTION SERVICES - ALL RIGHTS RESERVED.</p>
+                <div class="container-fluid">
+                    <div class="col-lg-12 text-center">
+                        <p>COPYRIGHT © 2022 RJS CONSTRUCTION SERVICES - ALL RIGHTS RESERVED.</p>
+                    </div>
                 </div>
             </div>
         </div>

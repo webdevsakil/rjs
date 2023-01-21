@@ -801,6 +801,12 @@ label {
   line-height: 76px;
 }
 
+@media screen and (max-width: 576px) {
+  .our-connect-bannar .connect-bannar-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
 .contact-area .contact-wrapper {
   padding: 60px 30px;
   border-radius: 16px;
@@ -839,6 +845,59 @@ label {
 .contact-area .contact-wrapper .contact-area-left .checkbox-area span {
   line-height: 28px;
   color: #667488;
+}
+
+.contact-area-small .contact-bg {
+  background: #edf1f1;
+  border-radius: 16px;
+}
+.contact-area-small h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0C072A;
+}
+.contact-area-small h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #0C072A;
+}
+.contact-area-small p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #667488;
+  margin-top: 10px;
+}
+.contact-area-small ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667488;
+  margin-bottom: 20px;
+}
+.contact-area-small ul li i {
+  margin-right: 10px;
+}
+.contact-area-small form.checkbox-area {
+  display: flex;
+}
+.contact-area-small form.checkbox-area span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #667488;
+}
+.contact-area-small form.checkbox-area input {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.contact-area-small .contact-form-area {
+  padding: 15px;
 }
 
 .contact-form-area {
