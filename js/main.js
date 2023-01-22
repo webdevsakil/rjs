@@ -1,20 +1,21 @@
 
-const video = document.getElementById('video');
-const videoPlayer = document.querySelector('#vedioWrapper img');
+if (document.getElementById('video') !== null) {
+    const video = document.getElementById('video');
+    const videoPlayer = document.querySelector('#vedioWrapper img');
 
-videoPlayer.addEventListener('click', function () {
-    video.play();
-})
+    videoPlayer.addEventListener('click', function () {
+        video.play();
+    })
 
-video.onplaying = function () {
-    videoPlayer.style.display = 'none';
-};
+    video.onplaying = function () {
+        videoPlayer.style.display = 'none';
+    };
 
-video.addEventListener('pause', function () {
-    videoPlayer.style.display = 'block';
-})
+    video.addEventListener('pause', function () {
+        videoPlayer.style.display = 'block';
+    })
 
-
+}
 $(document).ready(function () {
 
     $(".open-menu-btn").on('click', function () {

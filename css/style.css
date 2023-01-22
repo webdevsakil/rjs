@@ -388,6 +388,10 @@ label {
   visibility: visible;
   transition: all ease-in 0.4s;
 }
+.header-area .open-menu-btn {
+  position: relative;
+  z-index: 9888;
+}
 .header-area .open-menu-btn button {
   background: transparent;
   border: none;
@@ -701,9 +705,34 @@ label {
     height: 300px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .showcase {
+    overflow: hidden;
+    margin: 0 auto;
+  }
   .showcase img {
-    height: 290px;
+    height: 500px;
+    margin-left: -50px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .showcase {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .showcase img {
+    height: 400px;
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .showcase {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .showcase img {
+    height: 300px;
+    margin-left: -20px;
   }
 }
 .our-work-bannar {
@@ -832,6 +861,38 @@ label {
 }
 .current-projects .section-desc p {
   color: #F6F6F6;
+}
+.current-projects .current-project-image-area .single-project {
+  position: relative;
+}
+.current-projects .current-project-image-area .single-project .btn-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.current-projects .current-project-image-area .single-project img {
+  width: 100%;
+}
+.current-projects .current-project-image-area .single-project:hover .btn-area {
+  transition: all ease-in 0.3s;
+  opacity: 1;
+  visibility: visible;
+}
+.current-projects .current-project-image-area .single-project:hover::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "";
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {

@@ -180,6 +180,8 @@
 
     // open menu button
     .open-menu-btn {
+        position: relative;
+        z-index: 9888;
         button {
             background: transparent;
             border: none;
