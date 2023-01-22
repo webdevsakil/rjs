@@ -705,6 +705,11 @@ label {
     height: 300px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .showcase img {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .showcase {
     overflow: hidden;
@@ -862,10 +867,11 @@ label {
 .current-projects .section-desc p {
   color: #F6F6F6;
 }
-.current-projects .current-project-image-area .single-project {
+
+.single-project {
   position: relative;
 }
-.current-projects .current-project-image-area .single-project .btn-area {
+.single-project .btn-area {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -876,15 +882,15 @@ label {
   opacity: 0;
   visibility: hidden;
 }
-.current-projects .current-project-image-area .single-project img {
+.single-project img {
   width: 100%;
 }
-.current-projects .current-project-image-area .single-project:hover .btn-area {
+.single-project:hover .btn-area {
   transition: all ease-in 0.3s;
   opacity: 1;
   visibility: visible;
 }
-.current-projects .current-project-image-area .single-project:hover::before {
+.single-project:hover::before {
   position: absolute;
   top: 0;
   left: 0;

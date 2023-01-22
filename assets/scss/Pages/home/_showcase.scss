@@ -1,27 +1,40 @@
+@media screen and (min-width:1200px) {
+    .showcase {
+        img {
+            width: 100%;
+        }
+    }
+}
+
 @media screen and (min-width:768px) and (max-width:1200px) {
     .showcase {
-       overflow: hidden;
+        overflow: hidden;
         margin: 0 auto;
+
         img {
             height: 500px;
             margin-left: -50px;
         }
     }
 }
+
 @media screen and (min-width:480px) and (max-width:768px) {
     .showcase {
-       overflow: hidden;
+        overflow: hidden;
         margin: 0 auto;
+
         img {
             height: 400px;
             margin-left: -20px;
         }
     }
 }
+
 @media screen and (max-width:480px) {
     .showcase {
-       overflow: hidden;
+        overflow: hidden;
         margin: 0 auto;
+
         img {
             height: 300px;
             margin-left: -20px;
