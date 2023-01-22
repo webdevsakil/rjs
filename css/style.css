@@ -900,6 +900,11 @@ label {
   padding: 15px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 992px) {
+  .contact-area-small .contact-bg {
+    padding: 20px 80px;
+  }
+}
 .contact-form-area {
   background-color: #ffffff;
   padding: 30px;

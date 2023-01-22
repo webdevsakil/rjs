@@ -106,6 +106,7 @@
 
     form.checkbox-area {
         display: flex;
+
         span {
             font-family: $roboto;
             font-weight: 400;
@@ -113,7 +114,8 @@
             line-height: 28px;
             color: $lightGray;
         }
-        input{
+
+        input {
             height: 22px;
             width: 22px;
             margin-right: 10px;
@@ -123,5 +125,13 @@
 
     .contact-form-area {
         padding: 15px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:992px) {
+    .contact-area-small {
+        .contact-bg {
+            padding: 20px 80px;
+        }
     }
 }
