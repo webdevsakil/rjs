@@ -10,3 +10,16 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    .current-projects{
+        img{
+            width: 100%;
+        }
+    }
+    .work-img-area{
+        img{
+            height: 600px;
+        }
+    }
+}

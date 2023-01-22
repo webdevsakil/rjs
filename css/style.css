@@ -729,6 +729,12 @@ label {
   line-height: 76px;
 }
 
+@media screen and (max-width: 480px) {
+  .our-work-bannar .work-bannar-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
 .our-work-page .section-title h2 {
   font-weight: 600;
   font-size: 36px;
@@ -755,11 +761,72 @@ label {
   color: #667488;
 }
 
-.grid-image {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .our-work-page .section-title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .our-work-page .section-title h2::before {
+    bottom: 10px;
+    left: -60px;
+    width: 46px;
+    height: 3px;
+  }
 }
-
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .our-work-page .section-title h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-left: 50px;
+  }
+  .our-work-page .section-title h2::before {
+    bottom: 10px;
+    left: -50px;
+    width: 46px;
+    height: 3px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .our-work-page .section-title h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 50px;
+  }
+  .our-work-page .section-title h2::before {
+    bottom: 10px;
+    left: -50px;
+    width: 46px;
+    height: 3px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 576px) {
+  .our-work-page .section-title h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 50px;
+  }
+  .our-work-page .section-title h2::before {
+    bottom: 10px;
+    left: -50px;
+    width: 46px;
+    height: 3px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-work-page .section-title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-left: 50px;
+  }
+  .our-work-page .section-title h2::before {
+    bottom: 10px;
+    left: -50px;
+    width: 46px;
+    height: 3px;
+  }
+}
 .current-projects .section-title h2 {
   color: #ffffff;
 }
@@ -767,6 +834,14 @@ label {
   color: #F6F6F6;
 }
 
+@media screen and (max-width: 768px) {
+  .current-projects img {
+    width: 100%;
+  }
+  .work-img-area img {
+    height: 600px;
+  }
+}
 .our-connect-bannar {
   position: relative;
 }

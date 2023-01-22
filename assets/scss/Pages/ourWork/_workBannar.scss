@@ -1,6 +1,7 @@
-.our-work-bannar{
+.our-work-bannar {
     position: relative;
-    &::before{
+
+    &::before {
         position: absolute;
         content: "";
         top: 0;
@@ -9,14 +10,27 @@
         height: 100%;
         background-color: rgba(22, 70, 122, 0.7);
     }
-    .work-bannar-heading{
+
+    .work-bannar-heading {
         position: relative;
         z-index: 20;
-        h1{
+
+        h1 {
             text-align: center;
             font-weight: 600;
             font-size: 60px;
             line-height: 76px;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .our-work-bannar {
+        .work-bannar-heading {
+            h1 {
+                font-size: 28px;
+                line-height: 38px;
+            }
         }
     }
 }
