@@ -7,9 +7,7 @@ jQuery(document).ready(function ($) {
     $(".close-btn").on('click', function () {
         $('.mobile-menu-area').removeClass('toggle-mobile-menu')
     })
-    $("#video").on('click', function () {
-        alert("Hello")
-    })
+
 
     $('.photo-gallary-slider').slick({
         infinite: true,
