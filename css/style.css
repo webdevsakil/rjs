@@ -602,14 +602,11 @@ label {
   display: block;
 }
 
-.video-area video {
-  object-fit: cover;
-  width: 100%;
-}
 .video-area .video-wrapper {
   position: relative;
 }
-.video-area .video-wrapper img {
+.video-area .video-wrapper .video-player-icon {
+  position: absolute;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -696,7 +693,7 @@ label {
     width: 38px;
     font-size: 16px;
   }
-  .video-area .video-wrapper img {
+  .video-area .video-wrapper .video-player-icon img {
     width: 70px;
     height: 70px;
   }

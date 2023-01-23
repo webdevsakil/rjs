@@ -83,21 +83,18 @@
 }
 
 .video-area {
-    video {
-        object-fit: cover;
-        width: 100%;
-    }
-
     .video-wrapper {
         position: relative;
 
-        img {
+        .video-player-icon {
+            position: absolute;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
     }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -215,7 +212,7 @@
         font-size: 16px;
     }
 
-    .video-area .video-wrapper img {
+    .video-area .video-wrapper .video-player-icon img {
         width: 70px;
         height: 70px;
     }
