@@ -432,15 +432,26 @@ label {
   line-height: 28px;
   color: #ffffff;
 }
-.footer-area .widget_nav_menu li, .footer-area .footer-list li {
+.footer-area .widget_nav_menu li,
+.footer-area .footer-list li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   color: #F6F6F6;
   margin: 8px 0px;
+  display: flex;
+  align-items: center;
 }
-.footer-area .widget_nav_menu li i, .footer-area .footer-list li i {
+.footer-area .widget_nav_menu li p,
+.footer-area .footer-list li p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #F6F6F6;
+  margin-bottom: 0px;
+}
+.footer-area .widget_nav_menu li i,
+.footer-area .footer-list li i {
   margin-right: 15px;
 }
 .footer-area .form-area form {
@@ -481,11 +492,10 @@ label {
   line-height: 20px;
   color: #ffffff;
 }
-.footer-area .social-list {
+.footer-area .social-profile {
   display: flex;
-  align-items: center;
 }
-.footer-area .social-list li a {
+.footer-area .social-profile a {
   color: #7E7E81;
   margin-right: 8px;
   height: 30px;
