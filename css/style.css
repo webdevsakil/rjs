@@ -526,6 +526,9 @@ label {
   color: #EDEDED;
   text-transform: uppercase;
 }
+.footer-area .widget_social_profiles_widget {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 480px) {
   .footer-area .text-widgets h5 {
