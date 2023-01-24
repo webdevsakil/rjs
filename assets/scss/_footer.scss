@@ -1,37 +1,37 @@
 .footer-area {
 
-    .footer-heading {
-        h4 {
-            font-family: $poppins;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            text-transform: capitalize;
-            margin-bottom: 20px;
-            color: $white;
-        }
+
+    h4 {
+        font-family: $poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        color: $white;
     }
 
-    .text-widgets {
-        h5 {
-            font-family: $poppins;
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 20px;
-            color: $white;
-            margin: 20px 0px;
-        }
 
-        p {
-            font-family: $roboto;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 28px;
-            color: $white;
-        }
+
+    h5 {
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: $white;
+        margin: 20px 0px;
     }
 
-    .footer-list {
+    p {
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $white;
+    }
+
+
+    .widget_nav_menu,.footer-list {
         li {
             font-family: $roboto;
             font-weight: 400;
