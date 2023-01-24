@@ -443,6 +443,16 @@ label {
   display: flex;
   align-items: center;
 }
+.footer-area .widget_nav_menu li a,
+.footer-area .footer-list li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #F6F6F6;
+  display: flex;
+  align-items: center;
+}
 .footer-area .widget_nav_menu li p,
 .footer-area .footer-list li p {
   font-size: 12px;
